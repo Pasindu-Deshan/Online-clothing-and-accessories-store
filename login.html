@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>login</title>
+	<link rel="stylesheet" type="text/css" href="ex.css">
+	<link rel="stylesheet" type="text/css" href="log.css">
+</head>
+<body style="background-image: url(new.jpg); background-size: cover;">
+	<div class="div_01">	
+		<a href="index.html" style="padding: 20px; text-decoration: none; color: white;">Home</a>
+		<a href="store.html" style="padding: 20px; text-decoration: none; color: white;">Store</a>
+		<a href="deals.html" style="padding: 20px; text-decoration: none; color: white;">Deals</a>
+		<a href="about.html" style="padding: 20px; text-decoration: none; color: white;">About Glamour.360</a>
+		<a href="contact.html" style="padding: 20px; text-decoration: none; color: white;">Contact Us</a>
+		<a href="login.html" style="padding: 20px; text-decoration: none; color: white;">Login </a>
+		<div style="padding-left: 50px;" >
+			<a href="index.html" class="logo">Glamour.360</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+
+		function validation()
+		{
+			var username = document.getElementById('username');
+			var password = document.getElementById('password');
+
+			if (username.value.trim() ==""|| password.value.trim()=="")
+			 {
+			 	alert("No blank value allowed");
+			 	return false;
+			 }
+			 else
+			 {
+			 	if (username.value == "user" && password.value==1234) {
+			 		alert("You are successfully Log In!!");
+			 		window.open("index.html");
+			 	}
+			 	else{
+			 		alert("Try again");
+			 		window.open("login.html");
+			 	}
+			 }
+		} 	
+	</script>
+	<div class="log">
+		<form class="form" onsubmit="return validation()">
+			<img src="unname.png" class="unname">
+			<h2 style="color: white;">Log In</h2>
+			<input type="text" id="username" name="username" placeholder="Username">
+			<input type="password" id="password" name="password" placeholder="Password"><br><br>
+			<div id="reset">
+			<button type="submit" value="Login" class ="button01">Log In </button></a><br><br>
+			<a href="#" style="margin-right: 0px; font-size: 13px; font-family: Tahoma, Geneva, sans-serif; ">Reset password</a>
+			<a href="#" style="margin-right: 0px; font-size: 13px; font-family: Tahoma, Geneva, sans-serif; ">Forgot password</a>
+		</div><br><br><br>
+		Don't have account? <a href="#">&nbsp;Sign Up</a>
+
+		</form>
+	</div>
+	<br><br><br><br>
+
+<footer class="footer">
+	<table>
+		<br><br><br>
+		<tr>
+			<td><p><h1>About us</h1></p></td>
+			<td style="padding-left:200px;"><p><h1>Contact us</h1></p></td>
+			<td style="padding-left:300px;"><p><h1>Follow us</h1></p></td>
+			
+		</tr>
+		<tr>
+			<td><p style="color: #777777">Glamour.360<br>Online high end clothing accessories privat(Ltd) <br></p></td>
+			<td style="padding-left:200px;"><p style="color: #777777">Tel No: +973254568<br>E-mail: glamour.store@gmail.com</p></td>
+			<td style="padding-left:300px; text-decoration:none;"><a href="https://www.facebook.com/glamour.360" class="not"><img src="li1.png"></a><a href="https://www.instgram.com/glamour.360" class="not"><img src="li6.png" class="ins"></a><a href="https://www.linkdin.com" class="not"><img src="li7.png" class="linked"></a><a href="https://www.twitter.com" class="not"><img src="li8.png" class="twitter"></a></td>
+
+		</tr>
+		</table>
+		<div style="color: #777777;">
+			<p style="padding-top: 24px;"><center>Copyright ©2020 All rights reserved</center></p>
+		</div>
+</footer>	
+</body>
+</html>

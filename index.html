@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="ex.css">
+</head>
+<body class="body">
+<div class="div_01">
+		
+		<a href="index.html" style="padding: 20px; text-decoration: none; color: white;">Home</a>
+		<a href="store.html" style="padding: 20px; text-decoration: none; color: white;">Store</a>
+		<a href="deals.html" style="padding: 20px; text-decoration: none; color: white;">Deals</a>
+		<a href="about.html" style="padding: 20px; text-decoration: none; color: white;">About Glamour.360</a>
+		<a href="contact.html" style="padding: 20px; text-decoration: none; color: white;">Contact Us</a>
+		<a href="login.html" style="padding: 20px; text-decoration: none; color: white;">Login </a>
+		<div style="padding-left: 50px;" >
+			<a href="index.html" class="logo">Glamour.360</a>
+		</div>
+</div>
+<br><br><br>
+<br><br>
+<div class="text_01">
+<img src="men.jpg" width="100%" alt="nature" >
+<div class="container">
+	<p><h1>Glamour.360</h1></p>
+	<p><h2 style="font-size: 30px;">Welcome to the world number one<br> online high end clothing and accessories<br> web store.<br>You can search your favourite cloths and buy it online<br><br>
+	<p><h3 style="font-size: 20px;">Our aspiration isn't to be famous.<br> It's to giving you good and stylish cloths</h3></p> </h2></p>
+</div>
+</div>
+<br><br>
+
+<p><h1 style="font-family: Arial; color: #28a7e9; font-size: 40px;">Tranding <span style="color: white; font-size: 30px;">Fashions:</span></h1></p>
+<div class="slideshow-container">
+
+<div class="mySlides fade"> 
+  <img src="men.jpg" style="width: 100%; height: 604px;">
+</div>
+
+<div class="mySlides fade"> 
+  <img src="slide04.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="slide03.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+	<img src="s2.jpg" style="width: 100%; height: 604px;">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+<div>
+	<br><br>
+	<p><center><h1 style="color: white;">Shop for different categories</h1></center></p>
+	<p style="font-size:20px;color: white; ">Our <span style="font-size: 28px; color:#28a7e9; ">Best Selling</span> Products Of This Month</p>
+<table align="center">
+	<tr>
+		<td class="fav_bac"><a href="women.html" class="fav"><img src="p1.jpg"></a></td>
+		<td class="fav_bac"><a href="Men.html" class="fav"><img src="p2.jpg"></a></td>
+		<td class="fav_bac"><a href="women.html" class="fav"><img src="p5.jpg"></a></td>
+	</tr>
+	<tr>
+		<td class="fav_bac"><a href="Men.html" class="fav"><img src="p3.jpg"></a></td>
+		<td class="fav_bac"><a href="Men.html" class="fav"><img src="p4.jpg"></a></td>
+		<td class="fav_bac"><a href="women.html" class="fav"><img src="p6.jpg"></a></td>
+	</tr>
+</table>
+</div>
+<br><br><br><br>
+<p><h1 style="color: white;">Today<span style ="color: #28a7e9;"> Special </span>Offers!</h1></p>
+<div>
+	<a href="store.html"><img src="inde.jpg" style="width: 100%"></a>
+</div>
+
+<div>
+	<h1 style="font-family: sans-serif; color:#28a7e9;">We are social</h1>
+	<p style="font-family: sans-serif;color: white;">Follow us on instagram for latest updates </p>
+	<table>
+		<tr>
+			<td class="insta_table"><img src="insta1.jpg" style="width: 250px; height: 200px;" class="insta"></td>
+			<td class="insta_table"><img src="insta2.jpg" style="width: 250px; height: 200px;" class="insta"></td>
+			<td class="insta_table"><img src="insta3.jpg" style="width: 250px; height: 200px;" class="insta"></td>
+			<td class="insta_table"><img src="insta4.jpg" style="width: 250px; height: 200px;" class="insta"></td>
+		</tr>
+		<tr>
+			<td class="insta_table"><img src="insta5.png" style="width: 250px; height: 200px;" class="insta"></td>
+			<td class="insta_table"><img src="insta6.jpeg" style="width: 250px; height: 200px;" class="insta"></td>
+			<td class="insta_table"><img src="insta7.jpg" style="width: 250px; height: 200px;" class="insta"></td>
+			<td class="insta_table"><img src="insta8.jpg" style="width: 250px; height: 200px;" class="insta"></td>
+		</tr>
+		<tr>
+			<td class="insta_table"><img src="insta9.jpg" style="width: 250px; height: 200px;" class="insta"></td>
+			<td class="insta_table"><img src="insta10.jpg" style="width: 250px; height: 200px;" class="insta"></td>
+			<td class="insta_table"><img src="s3.jpg" style="width: 250px; height: 200px;" class="insta"></td>
+			<td class="insta_table"><img src="g1.jpg" style="width: 250px; height: 200px;" class="insta"></td>
+		</tr>
+	</table>
+</div>
+<div>
+	<p><h1 style="color: white;">Brands<span style="color:#28a7e9;"> &</span> Logos</h1></p>
+	<table style="text-align: center;">
+		<tr>
+			<td style="padding: 10px;"><img src="brand_1.png"></td>
+			<td style="padding: 10px;"><img src="brand_2.png"></td>
+			<td style="padding: 10px;"><img src="brand_3.png"></td>
+
+		</tr>
+		<tr>
+			<td style="padding: 10px;"><img src="brand_4.png"></td>
+			<td style="padding: 10px;"><img src="brand_5.png"></td>
+			<td style="padding: 10px;"><img src="brand_6.png"></td>
+		</tr>
+	</table>
+</div>
+<footer class="footer">
+	<table>
+		<br><br><br>
+		<tr>
+			<td><p><h1>About us</h1></p></td>
+			<td style="padding-left:200px;"><p><h1>Contact us</h1></p></td>
+			<td style="padding-left:300px;"><p><h1>Follow us</h1></p></td>
+			
+		</tr>
+		<tr>
+			<td><p style="color: #777777">Glamour.360<br>Online high end clothing accessories privat(Ltd) <br></p></td>
+			<td style="padding-left:200px;"><p style="color: #777777">Tel No: +973254568<br>E-mail: glamour.store@gmail.com</p></td>
+			<td style="padding-left:300px; text-decoration:none;"><a href="https://www.facebook.com/glamour.360" class="not"><img src="li1.png"></a><a href="https://www.instgram.com/glamour.360" class="not"><img src="li6.png" class="ins"></a><a href="https://www.linkdin.com" class="not"><img src="li7.png" class="linked"></a><a href="https://www.twitter.com" class="not"><img src="li8.png" class="twitter"></a></td>
+
+		</tr>
+		</table>
+		<div style="color: #777777;">
+			<p style="padding-top: 24px;"><center>Copyright ©2020 All rights reserved</center></p>
+		</div>
+</footer>
+</body>
+</html>

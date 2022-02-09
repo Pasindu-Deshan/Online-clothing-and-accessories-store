@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>deals</title>
+	<link rel="stylesheet" type="text/css" href="ex.css">
+	<link rel="stylesheet" type="text/css" href="deal.css">
+</head>
+<body>
+	<div class="div_01">
+
+		<a href="index.html" style="padding: 20px; text-decoration: none; color: white;">Home</a>
+		<a href="store.html" style="padding: 20px; text-decoration: none; color: white;">Store</a>
+		<a href="deals.html" style="padding: 20px; text-decoration: none; color: white;">Deals</a>
+		<a href="about.html" style="padding: 20px; text-decoration: none; color: white;">About Glamour.360</a>
+		<a href="contact.html" style="padding: 20px; text-decoration: none; color: white;">Contact Us</a>
+		<a href="login.html" style="padding: 20px; text-decoration: none; color: white;">Login </a>
+		<div style="padding-left: 50px;" >
+			<a href="index.html" class="logo">Glamour.360</a>
+		</div>
+</div>
+<br><br><br><br>
+<div class="slideshow-container">
+	<div class="del_img fad"> 
+  <img src="d2.jpg" style="width: 100%; height: 610px;">
+</div>
+
+<div class="del_img fad"> 
+  <img src="d1.jpg" style="width:100%; height: 610px;" class="d01">
+</div>
+
+<a class="pre" onclick="plusSlides(-1)">&#10094;</a>
+<a class="nex" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<div style="text-align:center">
+  <span class="dotted" onclick="currentSlide(1)"></span> 
+  <span class="dotted" onclick="currentSlide(2)"></span> 
+  <span class="dotted" onclick="currentSlide(3)"></span> 
+  <span class="dotted" onclick="currentSlide(4)"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("del_img");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+</script>
+<br><br><br><br><br><br>
+<div>
+	<p><h1 style="color: white;">TODAYS <span style="color:#28a7e9;"> SPECIAL</span></h1></p>
+	<div>
+		<img src="inde.jpg" style="width:100%;">
+	</div>
+	<table>
+		<tr>
+			<td><a href="women.html" ><img src="deal17.jpg" class="zm"></a></td>
+			<td><img src="deal19.png" class="pn"></td>
+		</tr>
+	</table>
+</div>
+<div>
+	<p class="txt_c">We are officially dealing with following companys.</p>
+	<div>
+		<table class="com">
+			<tr>
+				<td class="compa"><a href="https://www.nolimit.lk"><img src="deal1.jpg" class="dealss"></a></td>
+				<td class="compa"><a href="https://www.kandy.lk"><img src="deal3.jpg" class="dealss"></a></td>
+				<td class="compa"><a href="https://www.fashionbug.lk"><img src="deal4.jpg" class="dealss"></a></td>
+				<td class="compa"><a href="https://www.odel.lk"><img src="deal16.jpg" class="dealss"></a></td>
+				<td rowspan="5"><img src="deal18.jpg" class="dealss02"></td>
+			</tr>
+			<tr>
+				<td class="compa"><a href="https://www.amazone.com"><img src="deal7.png" class="dealss"></a></td>
+				<td class="compa"><a href="https://www.alibaba.com"><img src="deal8.jpg" class="dealss"></a></td>
+				<td class="compa"><a href="https://www.daraz.lk"><img src="deal9.jpeg" class="dealss"></a></td>
+				<td class="compa"><a href="https://www.ebay.com"><img src="deal10.jpg" class="dealss"></a></td>
+			</tr>
+			<tr>
+				<td colspan="4"><p class="txt_b">Banks and paymount methods</p></td>
+			</tr>
+			<tr>
+				<td class="compa"><a href="https://www.visa.com"><img src="deal2.png" class="dealss"></a></td>
+				<td class="compa"><a href="https://www.paypal.com"><img src="deal15.jpg" class="dealss"></a></td>
+				<td class="compa"><a href="https://www.mastercard.com"><img src="deal5.png" class="dealss"></a></td>
+				<td class="compa"><a href="https://www.americanexpress.com"><img src="deal6.jpeg" class="dealss"></a></td>
+			</tr>
+			<tr>
+				<td class="compa"><a href="https://www.sampath.com"><img src="deal14.jpg" class="dealss"></a></td>
+				<td class="compa"><a href="https://www.boc.com"><img src="deal13.jpg" class="dealss"></a></td>
+				<td class="compa"><a href="https://www.peoplesbank.com"><img src="deal12.jpg" class="dealss"></a></td>
+				<td class="compa"><a href="https://www.commercial.com"><img src="deal11.jpg" class="dealss"></a></td>
+			</tr>
+
+	</table>
+	</div> 
+</div>
+<div>
+	
+	<div>
+		<table class="com">
+			
+		</table>
+	</div>
+</div>
+<br><br><br>
+<footer class="footer">
+	<table>
+		<br><br><br>
+		<tr>
+			<td><p><h1>About us</h1></p></td>
+			<td style="padding-left:200px;"><p><h1>Contact us</h1></p></td>
+			<td style="padding-left:300px;"><p><h1>Follow us</h1></p></td>
+			
+		</tr>
+		<tr>
+			<td><p style="color: #777777">Glamour.360<br>Online high end clothing accessories privat(Ltd) <br></p></td>
+			<td style="padding-left:200px;"><p style="color: #777777">Tel No: +973254568<br>E-mail: glamour.store@gmail.com</p></td>
+			<td style="padding-left:300px; text-decoration:none;"><a href="https://www.facebook.com/glamour.360" class="not"><img src="li1.png"></a><a href="https://www.instgram.com/glamour.360" class="not"><img src="li6.png" class="ins"></a><a href="https://www.linkdin.com" class="not"><img src="li7.png" class="linked"></a><a href="https://www.twitter.com" class="not"><img src="li8.png" class="twitter"></a></td>
+
+		</tr>
+		</table>
+		<div style="color: #777777;">
+			<p style="padding-top: 24px;"><center>Copyright ©2020 All rights reserved</center></p>
+		</div>
+</footer>
+</body>
+</html>
